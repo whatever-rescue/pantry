@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EkoOffice</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+    <script src="https://kit.fontawesome.com/327a0d490c.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="82">
+
+    <div class="shadow">
+        <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i>
+                </button>
+                <a class="navbar-logo" href="#"><img src="img/logo.jpg" alt="logo"></a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" href="#home">home</a>
+                        <a class="nav-link" href="#products">asortyment</a>
+                        <a class="nav-link" href="#pakiet">pakiety</a>
+                        <a class="nav-link" href="#contact">kontakt</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <header id="home">
+            <div class="hero-img">
+                <div class="hero-shadow"></div>
+                <div class="hero-text">
+                    <h1 data-aos="fade-up" data-aos-delay="200"><span class="green-text">Eko</span><span class="black-text">Office</span>
+                    </h1>
+                    <p data-aos="fade-up" data-aos-delay="400"><span class="black-text">Kompleksowe zaopatrzenie firm</span></p>
+                    <div class="search-bar">
+                        <input type="text" class="search-bar__input" aria-label="search" placeholder="Wyszukaj produkt">
+                        <button class="search-bar__submit"> 
+                        <i class="fas fa-search" 
+                        aria-label="submit search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <main>
+            <section id="products" class="products bg-light py-5">
+                <div class="product-img">
+                    <div class="products-shadow"></div>
+                    <div class="container">
+                        <h2>Nasze produkty</h2>
+                        <div class="underline"></div>
+
+                        <div class="row">
+                            <div class="col-6 col-4 text-center">
+                                <p><i class="fa-solid fa-calculator"></i></p>
+                                <p class="products-card-title mb-1">Artykuły biurowe</p>
+                                <p class="products-card-text ">tekst</p>
+                            </div>
+                            <div class="col-6 col-4 text-center">
+                                <p><i class="fa-solid fa-spray-can-sparkles"></i></p>
+                                <p class="products-card-title mb-1">Środki czystości</p>
+                                <p class="products-card-text ">***</p>
+                            </div>
+                            <div class="col-6 col-4 text-center">
+                                <p><i class="fa-solid fa-puzzle-piece"></i></p>
+                                <p class="products-card-title mb-1">Zabawki</p>
+                                <p class="products-card-text ">___</p>
+                            </div>
+                            <div class="col-6 col-4 text-center">
+                                <p><i class="fa-solid fa-print"></i></p>
+                                <p class="products-card-title mb-1">Artykuły eksploatacyjne</p>
+                                <p class="products-card-text ">---</p>
+                            </div>
+                            <div class="col-6 col-4 text-center">
+                                <p><i class="fa-solid fa-flask-vial"></i></p>
+                                <p class="products-card-title mb-1">Chemia gospodarcza i przemysłowa</p>
+                                <p class="products-card-text ">>>></p>
+                            </div>
+                            <div class="col-6 col-4 text-center">
+                                <p><i class="fa-solid fa-tv"></i></p>
+                                <p class="products-card-title mb-1">Sprzęt RTV i AGD</p>
+                                <p class="products-card-text ">///</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="pakiet" class="pakiet bg-light">
+                <div class="pakiet__">
+                    <h2>pakiet</h2>
+                </div>
+                <div class=" underline"></div>
+                <div class="container">
+                    <div class="pakiet-wrap row text-center justify-content-center">
+                        <div class="col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="pakiet-box">
+                                <h3>homeoffice</h3>
+                                <hr>
+                                <p><span>Urządzenia:</span> <i class="fas fa-mobile-alt"></i></p>
+                                <p><span>Długość gry:</span> Krótka</p>
+                                <p><span>Grafika:</span> Średnia</p>
+                                <p><span>Online:</span> Brak</p>
+                                <p class="pakiet-tag">0zł</p>
+                                <button class="btn btn-secondary">zamów</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="pakiet-box">
+                                <h3>homeoffice2</h3>
+                                <hr>
+                                <p><span>Urządzenia:</span> <i class="fas fa-mobile-alt"></i> <i class="fas fa-desktop"></i>
+                                </p>
+                                <p><span>Długość gry:</span> Średnia</p>
+                                <p><span>Grafika:</span> Ładna</p>
+                                <p><span>Online:</span> Tak</p>
+                                <p class="pakiet-tag">0zł</p>
+                                <button class="btn btn-secondary">zamów</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4" data-aos="zoom-out" data-aos-delay="500">
+                            <div class="pakiet-box">
+                                <h3>homeoffice3</h3>
+                                <hr>
+                                <p><span>Urządzenia:</span> <i class="fas fa-mobile-alt"></i> <i class="fas fa-desktop"></i>
+                                    <i class="fas fa-gamepad"></i></p>
+                                <p><span>Długość gry:</span> Długa</p>
+                                <p><span>Grafika:</span> Najlepsza</p>
+                                <p><span>Online:</span> Tak</p>
+                                <p class="pakiet-tag">0zł</p>
+                                <button class="btn btn-secondary">zamów</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            </section>
+
+            <section id="contact" class="contact py-2">
+
+
+
+                <div class="container">
+
+                    <div class="row text-center contact-us">
+
+                        <!--
+                    <div class="col-sm-6 col-lg-4 contact-item order-1 ">
+                        Formularz
+                    </div> -->
+                        <div class="col-lg-4 order-0 order-lg-1 contact-item">
+                            <span class="kontakt "><h3>Kontakt</h3></span>
+                            <hr>
+                            <p>ul. Daszyńskiego 8/27</p>
+                            <p>42-400 Zawiercie</p>
+                            <p>+48 660 631 317</p>
+                            <p>biuro@ekooffice.pl</p>
+                            <hr>
+                        </div>
+
+                        <!--
+                    <div class="col-sm-6 col-lg-4 contact-item order-1 ">
+                        Koszyk
+                    </div>
+                    -->
+                    </div>
+                </div>
+                <div class="contact-shadow"></div>
+            </section>
+        </main>
+    </div>
+    <div class="footer">
+        <p> &copy;
+            <span class="green-text">Eko</span><span class="brown-text">Office</span>
+        </p>
+    </div>
+
+
+
+
+
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript " src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript " src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+
+            startEvent: 'DOMContentLoaded',
+            offset: 200,
+            once: true
+
+
+        });
+    </script>
+
+    <script type="text/javascript " src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/slicksettings.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

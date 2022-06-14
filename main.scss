@@ -1,0 +1,311 @@
+@import 'colors';
+@import 'animation';
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-padding-top: 82px;
+}
+
+body {
+    position: relative;
+    font-family: 'Comfortaa', cursive;
+    background-color: #ebecf2;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.underline {
+    margin: 0 auto 40px;
+    width: 60px;
+    height: 4px;
+    background-color: #66673d;
+}
+
+.green-text {
+    color: #3a8528;
+}
+
+.black-text {
+    color: black;
+}
+
+.brown-text {
+    color: #66673d;
+}
+
+.shadow-bg {
+    background-color: white;
+}
+
+img {
+    width: 100px;
+    margin: 20px;
+}
+
+.fa-bars {
+    color: #66673d;
+}
+
+.navbar-logo {
+    object-fit: contain;
+}
+
+nav {
+    text-transform: uppercase;
+    -webkit-transition: background-color .6s;
+    transition: background-color .6s;
+    z-index: 1;
+    a,
+    i {
+        color: #fff;
+    }
+    .link {
+        color: black;
+    }
+    a:hover {
+        color: #66673d;
+    }
+    .fa-bars {
+        padding: 10px;
+        margin: 10px;
+    }
+    .active {
+        color: #66673d;
+    }
+}
+
+header {
+    color: white;
+    h1 {
+        font-size: 30px;
+        text-transform: none;
+    }
+    p {
+        font-size: 14px;
+    }
+    .hero-img {
+        position: relative;
+        background-image: url("../img/background.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: 0;
+    }
+    .hero-shadow {
+        position: absolute;
+        width: 100%;
+        height: 120%;
+        background-color: rgba(255, 255, 255, 0.8);
+        z-index: -10;
+    }
+    .hero-text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 60%;
+        padding: 90px;
+        text-align: center;
+        z-index: 5;
+        width: auto;
+    }
+    .btn-outline-light {
+        text-transform: uppercase;
+    }
+    .btn {
+        display: contents;
+    }
+}
+
+.products {
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .product-img {
+        position: relative;
+        height: 70vh;
+        background-image: url("../img/background.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: 0;
+    }
+    .products-shadow {
+        position: absolute;
+        width: 100%;
+        height: 111%;
+        background-color: rgba(255, 255, 255, 0.8);
+        z-index: -10;
+    }
+    i {
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .products-card-title {
+        font-size: 18px;
+    }
+    .products-card-text {
+        font-size: 14px;
+    }
+    .products-hover:hover {
+        color: #66673d;
+    }
+}
+
+.pakiet {
+    background: rgb(9, 22, 9);
+    background: linear-gradient(0deg, rgba(35, 120, 38, 1) 30%, rgba(255, 255, 255, 1) 74%);
+    .pakiet-box {
+        margin: 20px 10px;
+        padding: 30px;
+        background-color: #fff;
+        -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+        -webkit-transition: -webkit-transform .3s;
+        transition: -webkit-transform .3s;
+        transition: transform .3s;
+        transition: transform .3s, -webkit-transform .3s;
+    }
+    .pakiet-tag {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    h3 {
+        color: $main-color;
+        text-transform: uppercase;
+    }
+    span {
+        font-weight: bold;
+    }
+    i {
+        padding: 0 5px;
+        font-size: 24px;
+    }
+    button {
+        padding: 10px 20px;
+        text-transform: uppercase;
+    }
+    .pakiet-tag {
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+.pakiet-box:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.pakiet-info {
+    margin-top: 30px;
+    a {
+        text-decoration: none;
+    }
+}
+
+.kontakt {
+    text-transform: uppercase;
+}
+
+.contact {
+    position: relative;
+    background-color: #2d5a27;
+    background-position: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 0;
+    h2 {
+        color: #ddd;
+        font-weight: bold;
+    }
+    .underline {
+        background-color: #ddd;
+    }
+    .contact-shadow {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(38, 84, 38, 0.85);
+        background: rgb(9, 22, 9);
+        background: linear-gradient(0deg, rgba(9, 22, 9, 0.8) 15%, rgba(35, 120, 38, 1) 100%);
+        z-index: -5;
+    }
+    .contact-us {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #fff;
+        .contact-item {
+            flex: content;
+        }
+    }
+}
+
+@media(min-width: 375px) {
+    header {
+        h1 {
+            font-size: 36px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+}
+
+@media(min-width: 768px) {
+    header {
+        h1 {
+            font-size: 42px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+@media(min-width: 992px) {
+    nav {
+        height: 82px;
+    }
+    .aboutus-hero {
+        background-image: url('../img/background.jpg');
+    }
+    .pakiet {
+        .pakiet-info {
+            font-size: 18px;
+        }
+    }
+}
+
+@media(min-width: 1200px) {
+    header {
+        .hero-img {
+            background-image: url('../img/background.jpg');
+        }
+    }
+}
